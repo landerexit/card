@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personalCard/static/css/main.d320443d.css",
-    "main.js": "/personalCard/static/js/main.e10e27ab.js",
-    "static/media/orig.png": "/personalCard/static/media/orig.5a163fc89e9ccc193a07.png",
+    "main.js": "/personalCard/static/js/main.af409827.js",
+    "static/media/orig.png": "/personalCard/static/media/orig.e99d42cf91b4f9b12fdd.png",
     "static/media/habr.svg": "/personalCard/static/media/habr.1ab9a46fc63dda0ecd84.svg",
     "static/media/atom.svg": "/personalCard/static/media/atom.217ddac7e5ba34f95a79.svg",
     "static/media/github.svg": "/personalCard/static/media/github.2626b5968c6ea21d5e88312e25023f9e.svg",
@@ -12,10 +12,10 @@
     "static/media/mail.svg": "/personalCard/static/media/mail.adf0cd93ecda8faeee31.svg",
     "index.html": "/personalCard/index.html",
     "main.d320443d.css.map": "/personalCard/static/css/main.d320443d.css.map",
-    "main.e10e27ab.js.map": "/personalCard/static/js/main.e10e27ab.js.map"
+    "main.af409827.js.map": "/personalCard/static/js/main.af409827.js.map"
   },
   "entrypoints": [
     "static/css/main.d320443d.css",
-    "static/js/main.e10e27ab.js"
+    "static/js/main.af409827.js"
   ]
 }
