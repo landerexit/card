@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(img/spr.svg);
+    background-color: #23252C;
+
+    color: white;
+    font-family: 'Inter';
+}
+    
+    
+    
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper > *+* {
+    margin-top: 2rem;
+}
+
+.wrapper {
+    width: 23rem;
+    background-size: 22rem;
+    background-color: #1A1B21;
+    background-repeat: no-repeat;
+    background-position-x: 1200%;
+    background-position-y: 85%;
+    background-image: url(img/atom.svg);
+    overflow: hidden;
+    border-radius: 1rem; 
+    margin: auto 0;
+}
+
+.padding-wrapper > *+* {
+    margin-top: 2rem;
+}
+
+.padding-wrapper {
+    padding: 0 2.25rem;
+}
+
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.info-section > *+*{
+    margin-top: 1rem; 
+}
+
+.personal-img {
+    width: 23rem;
+}
+
+.personal-info > h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.personal-info > h2 {
+    margin-top: .25rem;
+    
+    color: #F3BF99;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.personal-info > small {
+    margin-top: .75rem;
+    font-size: .65rem;
+    font-weight: 400;
+}
+
+.personal-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.personal-links > a {
+    width: 8.5rem;
+    padding: .5rem 2rem .5rem 3.75rem;
+    background-repeat: no-repeat;
+    background-position-x: 32.5% ;
+    background-position-y: 52%;
+
+    border-radius: .25rem;
+}
+
+.personal-email {
+    background-color: white;
+    background-size: 1rem;
+    background-image: url('./img/mail.svg');
+    color: black;
+}
+
+.personal-habr {
+    background-color: #5093E2;
+    background-size: 1.25rem;
+    background-image: url('./img/habr.svg');
+    color: white;
+}
+
+.about-section > *+* {
+    margin-top: .5rem;
+}
+
+.about-section > h3 {
+
+    font-weight: 600;
+}
+
+.about-section > p {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 300;
+}
+
+.social-links-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 1rem 2.25rem;
+    background-color: #161619;
+}
+
+.social-link {
+    width: 2rem;
+    border-radius: .3rem;
+}
+
+@media only screen and (min-width: 960px) {
+    :root {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    :root {
+        font-size: .7rem;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    :root {
+        font-size: .95rem;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media only screen and (device-width: 768px) {
+   /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}
