@@ -1,0 +1,51 @@
+@import './_vars'
+
+.info-section > *+*
+    margin-top: $gap
+
+.info-section
+    &__personal-img
+        width: 23rem
+
+    &__name
+        font-size: 1.65rem
+        font-weight: bold
+
+    &__names > *+*
+        margin-top: $gap-half
+
+    &__job-post
+        color: $clr-additional-job-post
+        font-size: 0.75rem
+        font-weight: 400
+
+    &__pseudonym
+        margin-top: $gap-half
+        font-size: .7rem
+        font-weight: 400
+
+    &__personal-links
+        display: flex
+        width: 100%
+        justify-content: space-between
+
+        & > a
+            width: 8.5rem
+            padding: .5rem 2rem .5rem 3.75rem
+            background-repeat: no-repeat
+            background-position-x: 32.5%
+            background-position-y: 52%
+
+            border-radius: .25rem
+
+    &__personal-email
+        background-color: $clr-white
+        background-size: 1rem
+        background-image: url('../img/mail.svg')
+        color: black
+
+    &__personal-habr
+        background-color: $clr-additional-habr
+        background-size: 1.25rem
+        background-image: url('../img/habr.svg')
+        color: white
