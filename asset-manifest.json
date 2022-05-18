@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalCard/static/css/main.020ddf22.css",
-    "main.js": "/personalCard/static/js/main.af409827.js",
+    "main.css": "/personalCard/static/css/main.bf92f9d9.css",
+    "main.js": "/personalCard/static/js/main.be8ec1ca.js",
     "static/media/orig.png": "/personalCard/static/media/orig.e99d42cf91b4f9b12fdd.png",
     "static/media/habr.svg": "/personalCard/static/media/habr.1ab9a46fc63dda0ecd84.svg",
     "static/media/atom.svg": "/personalCard/static/media/atom.217ddac7e5ba34f95a79.svg",
@@ -9,13 +9,13 @@
     "static/media/vk.svg": "/personalCard/static/media/vk.fafe7018f42c09322a0aad0dad9d7702.svg",
     "static/media/spr.svg": "/personalCard/static/media/spr.c2da44d20bd90333e6bc.svg",
     "static/media/telegram.svg": "/personalCard/static/media/telegram.cf4a5a0527293f83b082eac29b42e89d.svg",
-    "static/media/mail.svg": "/personalCard/static/media/mail.adf0cd93ecda8faeee31.svg",
     "index.html": "/personalCard/index.html",
-    "main.020ddf22.css.map": "/personalCard/static/css/main.020ddf22.css.map",
-    "main.af409827.js.map": "/personalCard/static/js/main.af409827.js.map"
+    "static/media/mail.svg": "/personalCard/static/media/mail.adf0cd93ecda8faeee31.svg",
+    "main.bf92f9d9.css.map": "/personalCard/static/css/main.bf92f9d9.css.map",
+    "main.be8ec1ca.js.map": "/personalCard/static/js/main.be8ec1ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.020ddf22.css",
-    "static/js/main.af409827.js"
+    "static/css/main.bf92f9d9.css",
+    "static/js/main.be8ec1ca.js"
   ]
 }
